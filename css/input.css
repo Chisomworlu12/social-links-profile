@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-Grey-700: hsl(0, 0%, 20%);
+    --color-Grey-800: hsl(0, 0%, 12%);
+    --color-Grey-900: hsl(0, 0%, 8%);
+    --color-Green: hsl(75, 94%, 57%);
+}
+
+.grey-700 {
+    background-color: var( --color-Grey-700);
+}
+.grey-800 {
+    background-color: var( --color-Grey-800);
+}
+.grey-900 {
+    background-color: var( --color-Grey-900);
+}
+.green {
+    background-color: var( --color-Green);
+}
+
+@font-face {
+    font-family: "inter-Variable";
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+.font-inter-variable-400 {
+    font-family: "inter-Variable";
+    font-weight: 400;
+}
+.font-inter-variable-700 {
+    font-family: "inter-Variable";
+    font-weight: 700;
+}
+.font-inter-variable-600 {
+    font-family: "inter-Variable";
+    font-weight: 600;
+}
